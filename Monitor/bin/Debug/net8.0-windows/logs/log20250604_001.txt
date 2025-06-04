@@ -1,0 +1,217 @@
+2025-06-04 15:55:20.826 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-04 15:55:21.254 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.4' with options: MaxPoolSize=1024 
+2025-06-04 15:55:21.265 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:55:21.277 +05:00 [DBG] Created DbConnection. (10ms).
+2025-06-04 15:55:21.282 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:55:21.288 +05:00 [DBG] An error occurred using the connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:55:21.293 +05:00 [DBG] Disposing connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:55:21.297 +05:00 [DBG] Disposed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:55:21.298 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:55:21.299 +05:00 [DBG] Created DbConnection. (0ms).
+2025-06-04 15:55:21.299 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:55:21.307 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.314 +05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-04 15:55:21.319 +05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2025-06-04 15:55:21.320 +05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2025-06-04 15:55:21.325 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-06-04 15:55:21.343 +05:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-06-04 15:55:21.344 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.346 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (2ms).
+2025-06-04 15:55:21.435 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:55:21.436 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.439 +05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-06-04 15:55:21.445 +05:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-06-04 15:55:21.447 +05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-04 15:55:21.447 +05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-04 15:55:21.447 +05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-04 15:55:21.447 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Limits" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Limits" PRIMARY KEY AUTOINCREMENT,
+    "IsReadOnly" INTEGER NOT NULL,
+    "Name" TEXT NOT NULL,
+    "MinAlt" REAL NOT NULL,
+    "MaxAlt" REAL NOT NULL,
+    "MinCas" REAL NOT NULL,
+    "MaxCas" REAL NOT NULL,
+    "MinPressureStatic" REAL NOT NULL,
+    "MaxPressureStatic" REAL NOT NULL,
+    "MinSpeedPressure" REAL NOT NULL,
+    "MaxSpeedPressure" REAL NOT NULL,
+    "MinMach" REAL NOT NULL,
+    "MaxRoc" REAL NOT NULL,
+    "MaxRtCAS" REAL NOT NULL,
+    "MaxRatePs" REAL NOT NULL,
+    "MaxRateQc" REAL NOT NULL,
+    "SoftDeleted" INTEGER NOT NULL
+);
+2025-06-04 15:55:21.449 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Limits" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Limits" PRIMARY KEY AUTOINCREMENT,
+    "IsReadOnly" INTEGER NOT NULL,
+    "Name" TEXT NOT NULL,
+    "MinAlt" REAL NOT NULL,
+    "MaxAlt" REAL NOT NULL,
+    "MinCas" REAL NOT NULL,
+    "MaxCas" REAL NOT NULL,
+    "MinPressureStatic" REAL NOT NULL,
+    "MaxPressureStatic" REAL NOT NULL,
+    "MinSpeedPressure" REAL NOT NULL,
+    "MaxSpeedPressure" REAL NOT NULL,
+    "MinMach" REAL NOT NULL,
+    "MaxRoc" REAL NOT NULL,
+    "MaxRtCAS" REAL NOT NULL,
+    "MaxRatePs" REAL NOT NULL,
+    "MaxRateQc" REAL NOT NULL,
+    "SoftDeleted" INTEGER NOT NULL
+);
+2025-06-04 15:55:21.452 +05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-04 15:55:21.452 +05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-04 15:55:21.452 +05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-04 15:55:21.452 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Limits_Id" ON "Limits" ("Id");
+2025-06-04 15:55:21.453 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Limits_Id" ON "Limits" ("Id");
+2025-06-04 15:55:21.454 +05:00 [DBG] Committing transaction.
+2025-06-04 15:55:21.459 +05:00 [DBG] Committed transaction.
+2025-06-04 15:55:21.461 +05:00 [DBG] Disposing transaction.
+2025-06-04 15:55:21.461 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.462 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:55:21.466 +05:00 [INF] БД создана за 0,5822701
+2025-06-04 15:55:21.498 +05:00 [DBG] Compiling query expression: 
+'DbSet<Limits>()
+    .Any()'
+2025-06-04 15:55:21.676 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted))) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted)), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ContextEf.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-04 15:55:21.692 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:55:21.692 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.693 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:55:21.693 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.693 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.693 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:55:21.694 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:55:21.698 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.699 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 4ms reading results.
+2025-06-04 15:55:21.699 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.699 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:55:21.728 +05:00 [DBG] 'AppDbContext' generated a temporary value for the property 'Limits.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.781 +05:00 [DBG] Context 'AppDbContext' started tracking 'Limits' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.782 +05:00 [DBG] 'AppDbContext' generated a temporary value for the property 'Limits.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.782 +05:00 [DBG] Context 'AppDbContext' started tracking 'Limits' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.782 +05:00 [DBG] 'AppDbContext' generated a temporary value for the property 'Limits.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.782 +05:00 [DBG] Context 'AppDbContext' started tracking 'Limits' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.784 +05:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2025-06-04 15:55:21.785 +05:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2025-06-04 15:55:21.796 +05:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2025-06-04 15:55:21.828 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:55:21.828 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.828 +05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-06-04 15:55:21.828 +05:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-06-04 15:55:21.829 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:55:21.829 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.830 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.831 +05:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Double), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Double), @p13='?' (DbType = Double), @p14='?' (Size = 12), @p15='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Limits" ("IsReadOnly", "MaxAlt", "MaxCas", "MaxPressureStatic", "MaxRatePs", "MaxRateQc", "MaxRoc", "MaxRtCAS", "MaxSpeedPressure", "MinAlt", "MinCas", "MinMach", "MinPressureStatic", "MinSpeedPressure", "Name", "SoftDeleted")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+2025-06-04 15:55:21.834 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Double), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Double), @p13='?' (DbType = Double), @p14='?' (Size = 12), @p15='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Limits" ("IsReadOnly", "MaxAlt", "MaxCas", "MaxPressureStatic", "MaxRatePs", "MaxRateQc", "MaxRoc", "MaxRtCAS", "MaxSpeedPressure", "MinAlt", "MinCas", "MinMach", "MinPressureStatic", "MinSpeedPressure", "Name", "SoftDeleted")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+2025-06-04 15:55:21.841 +05:00 [DBG] The foreign key property 'Limits.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-04 15:55:21.843 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.843 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 8ms reading results.
+2025-06-04 15:55:21.843 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:55:21.844 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.844 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.844 +05:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Double), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Double), @p13='?' (DbType = Double), @p14='?' (Size = 11), @p15='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Limits" ("IsReadOnly", "MaxAlt", "MaxCas", "MaxPressureStatic", "MaxRatePs", "MaxRateQc", "MaxRoc", "MaxRtCAS", "MaxSpeedPressure", "MinAlt", "MinCas", "MinMach", "MinPressureStatic", "MinSpeedPressure", "Name", "SoftDeleted")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+2025-06-04 15:55:21.844 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Double), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Double), @p13='?' (DbType = Double), @p14='?' (Size = 11), @p15='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Limits" ("IsReadOnly", "MaxAlt", "MaxCas", "MaxPressureStatic", "MaxRatePs", "MaxRateQc", "MaxRoc", "MaxRtCAS", "MaxSpeedPressure", "MinAlt", "MinCas", "MinMach", "MinPressureStatic", "MinSpeedPressure", "Name", "SoftDeleted")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+2025-06-04 15:55:21.844 +05:00 [DBG] The foreign key property 'Limits.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-04 15:55:21.844 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.844 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 0ms reading results.
+2025-06-04 15:55:21.844 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:55:21.844 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.844 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:55:21.844 +05:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Double), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Double), @p13='?' (DbType = Double), @p14='?' (Size = 11), @p15='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Limits" ("IsReadOnly", "MaxAlt", "MaxCas", "MaxPressureStatic", "MaxRatePs", "MaxRateQc", "MaxRoc", "MaxRtCAS", "MaxSpeedPressure", "MinAlt", "MinCas", "MinMach", "MinPressureStatic", "MinSpeedPressure", "Name", "SoftDeleted")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+2025-06-04 15:55:21.844 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (DbType = Double), @p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Double), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Double), @p13='?' (DbType = Double), @p14='?' (Size = 11), @p15='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Limits" ("IsReadOnly", "MaxAlt", "MaxCas", "MaxPressureStatic", "MaxRatePs", "MaxRateQc", "MaxRoc", "MaxRtCAS", "MaxSpeedPressure", "MinAlt", "MinCas", "MinMach", "MinPressureStatic", "MinSpeedPressure", "Name", "SoftDeleted")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15)
+RETURNING "Id";
+2025-06-04 15:55:21.844 +05:00 [DBG] The foreign key property 'Limits.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-04 15:55:21.844 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.844 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 0ms reading results.
+2025-06-04 15:55:21.844 +05:00 [DBG] Committing transaction.
+2025-06-04 15:55:21.846 +05:00 [DBG] Committed transaction.
+2025-06-04 15:55:21.846 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:55:21.846 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:55:21.846 +05:00 [DBG] Disposing transaction.
+2025-06-04 15:55:21.854 +05:00 [DBG] An entity of type 'Limits' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.854 +05:00 [DBG] An entity of type 'Limits' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.854 +05:00 [DBG] An entity of type 'Limits' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-04 15:55:21.854 +05:00 [DBG] SaveChanges completed for 'AppDbContext' with 3 entities written to the database.
+2025-06-04 15:55:22.482 +05:00 [INF] Запуск приложения!
+2025-06-04 15:55:23.286 +05:00 [ERR] Remote error. System.Exception: Ошибка инициализации АДТС
+   at WpfMain.Services.HostedServices.DataTransferHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\Services\HostedServices\DataTransferHostedService.cs:line 37
+   at WpfMain.ViewModels.MainWindowViewModel.HostedServiceStart() in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\ViewModels\MainWindowViewModel.cs:line 65
+2025-06-04 15:55:32.385 +05:00 [ERR] Remote error. System.Exception: Ошибка инициализации АДТС
+   at WpfMain.Services.HostedServices.DataTransferHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\Services\HostedServices\DataTransferHostedService.cs:line 37
+   at WpfMain.ViewModels.MainWindowViewModel.HostedServiceStart() in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\ViewModels\MainWindowViewModel.cs:line 65
+2025-06-04 15:56:30.125 +05:00 [INF] Process:WpfMain starting "2025-06-04T15:56:30.1116811+05:00"
+2025-06-04 15:56:30.175 +05:00 [INF] Monitor App is Started!
+2025-06-04 15:56:39.327 +05:00 [INF] Process:WpfMain starting "2025-06-04T15:56:39.3278481+05:00"
+2025-06-04 15:56:46.414 +05:00 [INF] Process:WpfMain starting "2025-06-04T15:56:46.4141154+05:00"
+2025-06-04 15:56:53.493 +05:00 [INF] Process:WpfMain starting "2025-06-04T15:56:53.4935920+05:00"

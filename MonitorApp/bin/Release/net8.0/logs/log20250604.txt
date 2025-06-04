@@ -1,0 +1,10 @@
+2025-06-04 14:33:58.903 +05:00 [DBG] Hosting starting
+2025-06-04 14:33:58.952 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 14:33:58.954 +05:00 [INF] Hosting environment: Production
+2025-06-04 14:33:58.955 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\MonitorApp\bin\Release\net8.0
+2025-06-04 14:33:58.955 +05:00 [DBG] Hosting started
+2025-06-04 14:34:36.070 +05:00 [DBG] Hosting starting
+2025-06-04 14:34:36.116 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 14:34:36.119 +05:00 [INF] Hosting environment: Production
+2025-06-04 14:34:36.120 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\MonitorApp\bin\Release\net8.0
+2025-06-04 14:34:36.120 +05:00 [DBG] Hosting started

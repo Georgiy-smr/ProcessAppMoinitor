@@ -1,0 +1,347 @@
+2025-06-04 15:56:30.596 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-04 15:56:30.940 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.4' with options: MaxPoolSize=1024 
+2025-06-04 15:56:30.949 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:30.958 +05:00 [DBG] Created DbConnection. (8ms).
+2025-06-04 15:56:30.963 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:30.969 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:30.978 +05:00 [DBG] Disposing connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:30.986 +05:00 [DBG] Disposed connection to database 'main' on server 'appDataBase.db' (1ms).
+2025-06-04 15:56:30.993 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-04 15:56:30.993 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:30.993 +05:00 [DBG] Created DbConnection. (0ms).
+2025-06-04 15:56:30.997 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2025-06-04 15:56:30.998 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (9ms).
+2025-06-04 15:56:30.998 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:30.999 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:31.003 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:31.029 +05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:31.032 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:31.035 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (4ms).
+2025-06-04 15:56:31.039 +05:00 [INF] БД создана за 0,3926973
+2025-06-04 15:56:31.078 +05:00 [DBG] Compiling query expression: 
+'DbSet<Limits>()
+    .Any()'
+2025-06-04 15:56:31.268 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted))) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted)), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ContextEf.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-04 15:56:31.288 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:31.289 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:31.289 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:56:31.289 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:31.289 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:31.289 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:31.291 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:31.296 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:31.297 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 4ms reading results.
+2025-06-04 15:56:31.299 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:31.299 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:56:31.970 +05:00 [INF] Запуск приложения!
+2025-06-04 15:56:32.765 +05:00 [ERR] Remote error. System.Exception: Ошибка инициализации АДТС
+   at WpfMain.Services.HostedServices.DataTransferHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\Services\HostedServices\DataTransferHostedService.cs:line 37
+   at WpfMain.ViewModels.MainWindowViewModel.HostedServiceStart() in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\ViewModels\MainWindowViewModel.cs:line 65
+2025-06-04 15:56:39.742 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-04 15:56:40.100 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.4' with options: MaxPoolSize=1024 
+2025-06-04 15:56:40.107 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:40.119 +05:00 [DBG] Created DbConnection. (7ms).
+2025-06-04 15:56:40.129 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:40.136 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:40.138 +05:00 [DBG] Disposing connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:40.142 +05:00 [DBG] Disposed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:56:40.147 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-04 15:56:40.147 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:40.147 +05:00 [DBG] Created DbConnection. (0ms).
+2025-06-04 15:56:40.151 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2025-06-04 15:56:40.152 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2025-06-04 15:56:40.152 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:40.153 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:40.158 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:40.173 +05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:40.174 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:40.176 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (1ms).
+2025-06-04 15:56:40.179 +05:00 [INF] БД создана за 0,3615875
+2025-06-04 15:56:40.206 +05:00 [DBG] Compiling query expression: 
+'DbSet<Limits>()
+    .Any()'
+2025-06-04 15:56:40.374 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted))) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted)), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ContextEf.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-04 15:56:40.392 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:40.393 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:40.393 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:56:40.393 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:40.393 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:40.393 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:40.395 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:40.398 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:40.400 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 3ms reading results.
+2025-06-04 15:56:40.401 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:40.401 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:56:41.027 +05:00 [INF] Запуск приложения!
+2025-06-04 15:56:41.824 +05:00 [ERR] Remote error. System.Exception: Ошибка инициализации АДТС
+   at WpfMain.Services.HostedServices.DataTransferHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\Services\HostedServices\DataTransferHostedService.cs:line 37
+   at WpfMain.ViewModels.MainWindowViewModel.HostedServiceStart() in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\ViewModels\MainWindowViewModel.cs:line 65
+2025-06-04 15:56:46.843 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-04 15:56:47.233 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.4' with options: MaxPoolSize=1024 
+2025-06-04 15:56:47.241 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:47.251 +05:00 [DBG] Created DbConnection. (7ms).
+2025-06-04 15:56:47.255 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:47.261 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:47.266 +05:00 [DBG] Disposing connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:47.271 +05:00 [DBG] Disposed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:56:47.275 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-04 15:56:47.276 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:47.276 +05:00 [DBG] Created DbConnection. (0ms).
+2025-06-04 15:56:47.280 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2025-06-04 15:56:47.281 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (8ms).
+2025-06-04 15:56:47.281 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:47.283 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:47.287 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:47.302 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:47.303 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:47.305 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (1ms).
+2025-06-04 15:56:47.308 +05:00 [INF] БД создана за 0,407972
+2025-06-04 15:56:47.336 +05:00 [DBG] Compiling query expression: 
+'DbSet<Limits>()
+    .Any()'
+2025-06-04 15:56:47.506 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted))) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted)), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ContextEf.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-04 15:56:47.531 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:47.532 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:47.532 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:56:47.532 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:47.532 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:47.533 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:47.534 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:47.537 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:47.538 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 3ms reading results.
+2025-06-04 15:56:47.539 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:47.539 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:56:48.182 +05:00 [INF] Запуск приложения!
+2025-06-04 15:56:48.956 +05:00 [ERR] Remote error. System.Exception: Ошибка инициализации АДТС
+   at WpfMain.Services.HostedServices.DataTransferHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\Services\HostedServices\DataTransferHostedService.cs:line 37
+   at WpfMain.ViewModels.MainWindowViewModel.HostedServiceStart() in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\ViewModels\MainWindowViewModel.cs:line 65
+2025-06-04 15:56:53.971 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-04 15:56:54.414 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.4' with options: MaxPoolSize=1024 
+2025-06-04 15:56:54.424 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:54.443 +05:00 [DBG] Created DbConnection. (18ms).
+2025-06-04 15:56:54.448 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:54.454 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:54.456 +05:00 [DBG] Disposing connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:54.460 +05:00 [DBG] Disposed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:56:54.464 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-04 15:56:54.465 +05:00 [DBG] Creating DbConnection.
+2025-06-04 15:56:54.465 +05:00 [DBG] Created DbConnection. (0ms).
+2025-06-04 15:56:54.468 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2025-06-04 15:56:54.469 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2025-06-04 15:56:54.469 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:54.470 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:54.475 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:54.490 +05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-04 15:56:54.492 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:54.494 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (2ms).
+2025-06-04 15:56:54.497 +05:00 [INF] БД создана за 0,4747649
+2025-06-04 15:56:54.531 +05:00 [DBG] Compiling query expression: 
+'DbSet<Limits>()
+    .Any()'
+2025-06-04 15:56:54.686 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted))) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted)), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ContextEf.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-04 15:56:54.704 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-04 15:56:54.705 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:54.705 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-04 15:56:54.705 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:54.705 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-04 15:56:54.706 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:54.707 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-04 15:56:54.710 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:54.711 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 3ms reading results.
+2025-06-04 15:56:54.713 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\source\repos\Experiments\ProccesMonitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-04 15:56:54.713 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-04 15:56:55.371 +05:00 [INF] Запуск приложения!
+2025-06-04 15:56:56.156 +05:00 [ERR] Remote error. System.Exception: Ошибка инициализации АДТС
+   at WpfMain.Services.HostedServices.DataTransferHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\Services\HostedServices\DataTransferHostedService.cs:line 37
+   at WpfMain.ViewModels.MainWindowViewModel.HostedServiceStart() in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\ViewModels\MainWindowViewModel.cs:line 65
+2025-06-04 16:02:04.500 +05:00 [INF] Process:WpfMain starting "2025-06-04T16:02:04.4798066+05:00"
+2025-06-04 16:02:04.574 +05:00 [INF] Monitor App is Started!
+2025-06-04 16:02:12.686 +05:00 [INF] Process:WpfMain starting "2025-06-04T16:02:12.6862381+05:00"
