@@ -5,7 +5,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Monitor.Settings;
-using MonitorApp;
 using Serilog;
 
 namespace Monitor
@@ -13,11 +12,11 @@ namespace Monitor
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application
+    public partial class App
     {
-        private static IHost? _Host;
-        public static IHost Host =>
-            _Host
+        private IHost? _host;
+        public IHost Host =>
+            _host
             ??= Program.CreateHostBuilder(Environment.GetCommandLineArgs()).Build();
 
         internal static void ConfigureServices
@@ -32,25 +31,20 @@ namespace Monitor
                 host.Configuration.GetSection(nameof(AppStartSettings)));
             services.AddSerilog(Log.Logger);
             services.AddHostedService<Worker>();
+            services.AddHostedService<Worker1>();
         }
 
-        public static IServiceProvider Services => Host.Services;
+        public IServiceProvider Services => Host.Services;
 
         protected override async void OnStartup(StartupEventArgs e)
         {
-
-            var host = Host;
             using var scope = Services.CreateScope();
             CancellationTokenSource token = new();
 
-
-
-            await scope.ServiceProvider.GetRequiredService<IHostedService>().StartAsync(token.Token);
-
             var log = scope.ServiceProvider.GetRequiredService<ILogger<App>>(); 
             log.LogInformation("Monitor App is Started!");
-
-            base.OnStartup(e);
+            await Host.RunAsync(token: token.Token);
+            //base.OnStartup(e);
         }
     }
 

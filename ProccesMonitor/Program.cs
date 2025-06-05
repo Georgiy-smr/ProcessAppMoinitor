@@ -1,19 +1,32 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Diagnostics;
-string processName = "WpfMain"; // без расширения .exe
+using System.Drawing;
+using System.Text;
+using System.Text.Json;
 
-string appPath = @"C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\bin\Debug\net8.0-windows\WpfMain.exe";
-Console.WriteLine("Hello, World!");
 
-while (true)
+
+using var client = new HttpClient();
+
+string url = "http://localhost:5000/";
+string? message = Console.ReadLine();
+
+Point point = new Point(1, 2);
+
+var s = JsonSerializer.Serialize(point);
+
+var content = new StringContent(s, Encoding.UTF8, "text/plain");
+
+try
 {
-    var processes = Process.GetProcessesByName(processName);
-    if (processes.Length == 0)
-    {
-        // Запускаем приложение
-        Process.Start(appPath);
-    }
-    Thread.Sleep(1000);
+    var response = await client.PostAsync(url, content);
+    string responseText = await response.Content.ReadAsStringAsync();
+
+    Console.WriteLine($"Ответ сервера: {responseText}");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Ошибка при отправке запроса: {ex.Message}");
 }
 
 
