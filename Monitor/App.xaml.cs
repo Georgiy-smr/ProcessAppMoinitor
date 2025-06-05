@@ -1,9 +1,11 @@
 ﻿using System.Configuration;
 using System.Data;
+using System.Net;
 using System.Windows;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Monitor.Settings;
 using Serilog;
 
@@ -30,8 +32,18 @@ namespace Monitor
             services.Configure<AppStartSettings>(
                 host.Configuration.GetSection(nameof(AppStartSettings)));
             services.AddSerilog(Log.Logger);
+
+            services.AddSingleton<HttpListener>(opt =>
+            {
+                var settings = opt.GetRequiredService<IOptions<AppStartSettings>>();
+                var httpListener = new HttpListener();
+                httpListener.Prefixes.Add(settings.Value.UriPrefix);
+
+                return httpListener;
+            });
+
             services.AddHostedService<Worker>();
-            services.AddHostedService<Worker1>();
+            services.AddHostedService<WorkerHttpListener>();
         }
 
         public IServiceProvider Services => Host.Services;

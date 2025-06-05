@@ -1,9 +1,5 @@
 using System.Diagnostics;
 using System.IO;
-using System.Net;
-using System.Text;
-using System.Text.Json;
-using System.Windows;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -51,49 +47,6 @@ namespace Monitor
                     _logger.LogCritical(e,$"Error starting process {processPath ?? string.Empty}");
                 }
                 await Task.Delay(delay, stoppingToken);
-            }
-        }
-    }
-
-    public class Worker1 : BackgroundService
-    {
-        private readonly ILogger<Worker> _logger;
-        private readonly HttpListener _listener;
-        public Worker1(ILogger<Worker> logger, IOptions<AppStartSettings> options)
-        {
-            _logger = logger;
-            _listener = new HttpListener();
-            _listener.Prefixes.Add("http://localhost:5000/");
-        }
-
-        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
-        {
-            _listener.Start();
-            while (!stoppingToken.IsCancellationRequested)
-            {
-                var context = await _listener.GetContextAsync();
-
-                var request = context.Request;
-                var response = context.Response;
-
-                string requestBody = "";
-                if (request.HasEntityBody)
-                {
-                    using var reader = new System.IO.StreamReader(request.InputStream, request.ContentEncoding);
-                    requestBody = await reader.ReadToEndAsync(stoppingToken);
-                }
-
-                var point = JsonSerializer.Deserialize<Point>(requestBody);
-
-                // Формируем ответ
-                string responseString = $"Принято сообщение: {requestBody}";
-                byte[] buffer = Encoding.UTF8.GetBytes(responseString);
-
-                response.ContentLength64 = buffer.Length;
-                response.ContentType = "text/plain; charset=utf-8";
-                await response.OutputStream.WriteAsync(buffer, 0, buffer.Length, stoppingToken);
-                response.OutputStream.Close();
-                await Task.Delay(1000, stoppingToken);
             }
         }
     }
