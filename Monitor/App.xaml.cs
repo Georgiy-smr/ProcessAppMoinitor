@@ -1,11 +1,13 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Net;
+using System.Reflection;
 using System.Windows;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Monitor.Services;
 using Monitor.Settings;
 using Serilog;
 
@@ -44,6 +46,10 @@ namespace Monitor
 
             services.AddHostedService<Worker>();
             services.AddHostedService<WorkerHttpListener>();
+            services.AddSingleton<DelayService>();
+            services.AddSingleton<IDelay>(opt => opt.GetRequiredService<DelayService>());
+            services.AddSingleton<ISetDelay>(opt => opt.GetRequiredService<DelayService>());
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
         }
 
         public IServiceProvider Services => Host.Services;

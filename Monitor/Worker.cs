@@ -1,8 +1,10 @@
 using System.Diagnostics;
 using System.IO;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Monitor.Services;
 using Monitor.Settings;
 
 namespace Monitor
@@ -11,16 +13,26 @@ namespace Monitor
     {
         private readonly ILogger<Worker> _logger;
         private readonly AppStartSettings _settings;
-        public Worker(ILogger<Worker> logger, IOptions<AppStartSettings> options)
+        private readonly IServiceProvider _provider;
+        public Worker(
+            ILogger<Worker> logger,
+            IOptions<AppStartSettings> options, 
+            IServiceProvider provider)
         {
             _settings = options.Value;
             _logger = logger;
+            _provider = provider;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
+                await using var scope = _provider.CreateAsyncScope();
+                var delayService = scope.ServiceProvider.GetRequiredService<IDelay>();
+                if(delayService.IsCanSleep)
+                    await Task.Delay(delayService.GetDelay(), stoppingToken).ConfigureAwait(false);
+
                 string processName = _settings.NameApp;
                 string processPath = _settings.AppPath;
                 int delay = _settings.TimeInterval;

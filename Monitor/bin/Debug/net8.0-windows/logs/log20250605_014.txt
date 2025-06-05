@@ -1,0 +1,86 @@
+2025-06-05 22:15:54.048 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-05 22:15:54.455 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.4' with options: MaxPoolSize=1024 
+2025-06-05 22:15:54.465 +05:00 [DBG] Creating DbConnection.
+2025-06-05 22:15:54.474 +05:00 [DBG] Created DbConnection. (8ms).
+2025-06-05 22:15:54.480 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-05 22:15:54.486 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-05 22:15:54.495 +05:00 [DBG] Disposing connection to database 'main' on server 'appDataBase.db'.
+2025-06-05 22:15:54.498 +05:00 [DBG] Disposed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-05 22:15:54.503 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-05 22:15:54.503 +05:00 [DBG] Creating DbConnection.
+2025-06-05 22:15:54.503 +05:00 [DBG] Created DbConnection. (0ms).
+2025-06-05 22:15:54.507 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2025-06-05 22:15:54.508 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2025-06-05 22:15:54.508 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-05 22:15:54.509 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-05 22:15:54.516 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-05 22:15:54.532 +05:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-05 22:15:54.533 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-05 22:15:54.535 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (1ms).
+2025-06-05 22:15:54.542 +05:00 [INF] БД создана за 0,4403212
+2025-06-05 22:15:54.577 +05:00 [DBG] Compiling query expression: 
+'DbSet<Limits>()
+    .Any()'
+2025-06-05 22:15:54.774 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted))) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted)), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ContextEf.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-05 22:15:54.798 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-05 22:15:54.799 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-05 22:15:54.799 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-05 22:15:54.799 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-05 22:15:54.799 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-05 22:15:54.799 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-05 22:15:54.801 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-05 22:15:54.805 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-05 22:15:54.807 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 4ms reading results.
+2025-06-05 22:15:54.809 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-05 22:15:54.809 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-05 22:15:55.619 +05:00 [INF] Запуск приложения!
+2025-06-05 22:15:56.318 +05:00 [ERR] Remote error. System.Exception: Ошибка инициализации АДТС
+   at WpfMain.Services.HostedServices.DataTransferHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\Services\HostedServices\DataTransferHostedService.cs:line 37
+   at WpfMain.ViewModels.MainWindowViewModel.HostedServiceStart() in C:\Users\Gosha and Anya\ADTS-Software\Adts\WpfMain\ViewModels\MainWindowViewModel.cs:line 65

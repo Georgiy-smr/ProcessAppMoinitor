@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProccesMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f84d7ec0df184ab9d08f3538812b902ce32a2607")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a2f94aa98e84f34ad60126eeeee57abdf013feb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProccesMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProccesMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -127,3 +127,7 @@ C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\obj\Debug\net8.0-windows\refi
 C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\obj\Debug\net8.0-windows\Monitor.pdb
 C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\obj\Debug\net8.0-windows\Monitor.genruntimeconfig.cache
 C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\obj\Debug\net8.0-windows\ref\Monitor.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\MediatR.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\MediatR.Contracts.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\MonitorAppLib.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\MonitorAppLib.pdb

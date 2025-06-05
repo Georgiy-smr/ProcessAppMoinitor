@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|solutionrelative:monitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitor\\services\\delayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|solutionrelative:monitor\\services\\delayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitor\\services\\idelay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|solutionrelative:monitor\\services\\idelay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitor\\services\\isetdelay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|solutionrelative:monitor\\services\\isetdelay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5BBDD98-8414-43E9-B6D5-FA1CA3E08924}|ProccesMonitor\\ProccesMonitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\proccesmonitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5BBDD98-8414-43E9-B6D5-FA1CA3E08924}|ProccesMonitor\\ProccesMonitor.csproj|solutionrelative:proccesmonitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitor\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|solutionrelative:monitor\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|solutionrelative:monitor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitor\\workerhttplistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E75900-3C43-40C5-99A4-5C0A1B0BA6D1}|Monitor\\Monitor.csproj|solutionrelative:monitor\\workerhttplistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66383BDB-DEA5-40CB-8778-BBB4180AA606}|MonitorAppLib\\MonitorAppLib.csproj|c:\\users\\gosha and anya\\processappmoinitor\\monitorapplib\\setmonitordelay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66383BDB-DEA5-40CB-8778-BBB4180AA606}|MonitorAppLib\\MonitorAppLib.csproj|solutionrelative:monitorapplib\\setmonitordelay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +51,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Program.cs",
-              "RelativeDocumentMoniker": "Monitor\\Program.cs",
-              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Program.cs",
-              "RelativeToolTip": "Monitor\\Program.cs",
+              "Title": "DelayService.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Services\\DelayService.cs",
+              "RelativeDocumentMoniker": "Monitor\\Services\\DelayService.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Services\\DelayService.cs",
+              "RelativeToolTip": "Monitor\\Services\\DelayService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:57:34.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISetDelay.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Services\\ISetDelay.cs",
+              "RelativeDocumentMoniker": "Monitor\\Services\\ISetDelay.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Services\\ISetDelay.cs",
+              "RelativeToolTip": "Monitor\\Services\\ISetDelay.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T11:09:18.986Z",
+              "WhenOpened": "2025-06-05T17:57:17.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Worker.cs",
+              "RelativeDocumentMoniker": "Monitor\\Worker.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Worker.cs",
+              "RelativeToolTip": "Monitor\\Worker.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAhwCEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:31:20.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDelay.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Services\\IDelay.cs",
+              "RelativeDocumentMoniker": "Monitor\\Services\\IDelay.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Services\\IDelay.cs*",
+              "RelativeToolTip": "Monitor\\Services\\IDelay.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:24:03.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\ProccesMonitor\\Program.cs",
+              "RelativeDocumentMoniker": "ProccesMonitor\\Program.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\ProccesMonitor\\Program.cs",
+              "RelativeToolTip": "ProccesMonitor\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:14:11.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Monitor\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\App.xaml.cs",
+              "RelativeToolTip": "Monitor\\App.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwDAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:57:24.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkerHttpListener.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\WorkerHttpListener.cs",
+              "RelativeDocumentMoniker": "Monitor\\WorkerHttpListener.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\WorkerHttpListener.cs",
+              "RelativeToolTip": "Monitor\\WorkerHttpListener.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:53:59.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SetMonitorDelay.cs",
+              "DocumentMoniker": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\SetMonitorDelay.cs",
+              "RelativeDocumentMoniker": "MonitorAppLib\\SetMonitorDelay.cs",
+              "ToolTip": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\SetMonitorDelay.cs",
+              "RelativeToolTip": "MonitorAppLib\\SetMonitorDelay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:49:25.697Z",
               "EditorCaption": ""
             }
           ]

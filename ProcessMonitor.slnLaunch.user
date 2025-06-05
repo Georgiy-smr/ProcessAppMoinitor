@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "ProccesMonitor\\ProccesMonitor.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Monitor\\Monitor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

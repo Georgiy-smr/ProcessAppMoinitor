@@ -1,0 +1,16 @@
+2025-06-05 22:18:49.758 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:18:49.825 +05:00 [DBG] Hosting starting
+2025-06-05 22:18:49.930 +05:00 [INF] Listener starting...
+2025-06-05 22:18:49.935 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:18:49.940 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:18:49.941 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:18:49.941 +05:00 [DBG] Hosting started
+2025-06-05 22:18:53.062 +05:00 [INF] Received delay notification: Delay is 23
+2025-06-05 22:34:50.396 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:34:50.454 +05:00 [DBG] Hosting starting
+2025-06-05 22:34:56.076 +05:00 [INF] Process:WpfMain starting "2025-06-05T22:34:56.0688123+05:00"
+2025-06-05 22:34:56.089 +05:00 [INF] Listener starting...
+2025-06-05 22:34:56.095 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:34:56.096 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:34:56.096 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:34:56.096 +05:00 [DBG] Hosting started

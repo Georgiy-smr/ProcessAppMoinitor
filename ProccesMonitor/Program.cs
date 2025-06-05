@@ -1,9 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Diagnostics;
-using System.Drawing;
 using System.Text;
 using System.Text.Json;
-
+using MonitorAppLib;
 
 
 using var client = new HttpClient();
@@ -11,18 +9,20 @@ using var client = new HttpClient();
 string url = "http://localhost:5000/";
 string? message = Console.ReadLine();
 
-Point point = new Point(1, 2);
+SetMonitorDelay delay = new SetMonitorDelay()
+{
+    Delay = int.Parse(message!)
+};
 
-var s = JsonSerializer.Serialize(point);
+var jsonSetDelay = JsonSerializer.Serialize(delay);
 
-var content = new StringContent(s, Encoding.UTF8, "text/plain");
+var content = new StringContent(jsonSetDelay, Encoding.UTF8, "text/plain");
 
 try
 {
     var response = await client.PostAsync(url, content);
-    string responseText = await response.Content.ReadAsStringAsync();
 
-    Console.WriteLine($"Ответ сервера: {responseText}");
+    Console.WriteLine($"Статус {response.StatusCode}");
 }
 catch (Exception ex)
 {

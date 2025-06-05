@@ -1,0 +1,13 @@
+2025-06-05 19:55:14.348 +05:00 [INF] Monitor App is Started!
+2025-06-05 19:55:14.397 +05:00 [DBG] Hosting starting
+2025-06-05 19:55:14.528 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 19:55:14.533 +05:00 [INF] Hosting environment: Production
+2025-06-05 19:55:14.533 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 19:55:14.533 +05:00 [DBG] Hosting started
+2025-06-05 20:05:36.948 +05:00 [INF] Monitor App is Started!
+2025-06-05 20:05:36.989 +05:00 [DBG] Hosting starting
+2025-06-05 20:05:37.135 +05:00 [INF] Process:WpfMain starting "2025-06-05T20:05:37.1305470+05:00"
+2025-06-05 20:05:37.160 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 20:05:37.160 +05:00 [INF] Hosting environment: Production
+2025-06-05 20:05:37.160 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 20:05:37.160 +05:00 [DBG] Hosting started

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6NbUdOalRmE=",
+  "dgSpecHash": "DoJWvC7Suk0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Monitor.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gosha and Anya\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\Gosha and Anya\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Gosha and Anya\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
     "C:\\Users\\Gosha and Anya\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
     "C:\\Users\\Gosha and Anya\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.5\\microsoft.extensions.configuration.binder.9.0.5.nupkg.sha512",

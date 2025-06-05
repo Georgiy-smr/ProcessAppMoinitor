@@ -1,0 +1,87 @@
+2025-06-05 22:35:31.147 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:35:31.181 +05:00 [DBG] Hosting starting
+2025-06-05 22:35:35.080 +05:00 [INF] Listener starting...
+2025-06-05 22:35:35.085 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:35:35.090 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:35:35.091 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:35:35.091 +05:00 [DBG] Hosting started
+2025-06-05 22:35:41.459 +05:00 [INF] Received delay notification: Delay is 1000
+2025-06-05 22:36:43.723 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:36:43.758 +05:00 [DBG] Hosting starting
+2025-06-05 22:36:47.846 +05:00 [INF] Listener starting...
+2025-06-05 22:36:47.852 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:36:47.860 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:36:47.861 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:36:47.861 +05:00 [DBG] Hosting started
+2025-06-05 22:37:09.915 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:37:09.956 +05:00 [DBG] Hosting starting
+2025-06-05 22:37:12.501 +05:00 [INF] Listener starting...
+2025-06-05 22:37:12.506 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:37:12.510 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:37:12.510 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:37:12.510 +05:00 [DBG] Hosting started
+2025-06-05 22:37:21.932 +05:00 [INF] Received delay notification: Delay is 23
+2025-06-05 22:41:58.775 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:41:58.877 +05:00 [DBG] Hosting starting
+2025-06-05 22:42:01.085 +05:00 [INF] Listener starting...
+2025-06-05 22:42:01.098 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:42:01.102 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:42:01.103 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:42:01.103 +05:00 [DBG] Hosting started
+2025-06-05 22:42:06.950 +05:00 [INF] Received delay notification: Delay is 23
+2025-06-05 22:43:18.878 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:43:18.914 +05:00 [DBG] Hosting starting
+2025-06-05 22:43:24.183 +05:00 [INF] Listener starting...
+2025-06-05 22:43:24.192 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:43:24.197 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:43:24.198 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:43:24.198 +05:00 [DBG] Hosting started
+2025-06-05 22:43:41.373 +05:00 [INF] Received delay notification: Delay is 213
+2025-06-05 22:48:57.842 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:48:57.875 +05:00 [DBG] Hosting starting
+2025-06-05 22:49:11.921 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:49:12.002 +05:00 [DBG] Hosting starting
+2025-06-05 22:49:15.229 +05:00 [INF] Listener starting...
+2025-06-05 22:49:15.233 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:49:15.237 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:49:15.237 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:49:15.238 +05:00 [DBG] Hosting started
+2025-06-05 22:49:23.682 +05:00 [INF] Received delay notification: Delay is 12
+2025-06-05 22:50:09.699 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:50:09.740 +05:00 [DBG] Hosting starting
+2025-06-05 22:51:22.710 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:51:22.779 +05:00 [DBG] Hosting starting
+2025-06-05 22:51:22.886 +05:00 [INF] Listener starting...
+2025-06-05 22:51:22.892 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:51:22.896 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:51:22.897 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:51:22.897 +05:00 [DBG] Hosting started
+2025-06-05 22:51:24.607 +05:00 [INF] Received delay notification: Delay is 23
+2025-06-05 22:51:40.835 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:51:40.876 +05:00 [DBG] Hosting starting
+2025-06-05 22:51:40.953 +05:00 [INF] Listener starting...
+2025-06-05 22:51:40.957 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:51:40.961 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:51:40.961 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:51:40.961 +05:00 [DBG] Hosting started
+2025-06-05 22:51:44.736 +05:00 [INF] Received delay notification: Delay is 6563
+2025-06-05 22:54:52.268 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:54:52.302 +05:00 [DBG] Hosting starting
+2025-06-05 22:54:52.394 +05:00 [INF] Listener starting...
+2025-06-05 22:54:52.398 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:54:52.401 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:54:52.402 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:54:52.402 +05:00 [DBG] Hosting started
+2025-06-05 22:54:54.907 +05:00 [INF] Received delay notification: Delay is 45456
+2025-06-05 22:54:54.912 +05:00 [INF] Set new Delay is 45456
+2025-06-05 22:54:55.423 +05:00 [INF] Get Delay is 45456
+2025-06-05 22:57:44.801 +05:00 [INF] Monitor App is Started!
+2025-06-05 22:57:44.838 +05:00 [DBG] Hosting starting
+2025-06-05 22:57:44.932 +05:00 [INF] Listener starting...
+2025-06-05 22:57:44.936 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 22:57:44.941 +05:00 [INF] Hosting environment: Production
+2025-06-05 22:57:44.941 +05:00 [INF] Content root path: C:\Users\Gosha and Anya\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-05 22:57:44.942 +05:00 [DBG] Hosting started
+2025-06-05 22:57:46.336 +05:00 [INF] Received delay notification: Delay is 545
+2025-06-05 22:57:46.338 +05:00 [INF] Set new Delay is 545
+2025-06-05 22:57:46.953 +05:00 [INF] Get Delay is 545

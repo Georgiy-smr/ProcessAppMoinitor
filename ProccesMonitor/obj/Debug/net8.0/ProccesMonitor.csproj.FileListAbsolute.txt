@@ -27,3 +27,10 @@ C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\refin
 C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.pdb
 C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.genruntimeconfig.cache
 C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ref\ProccesMonitor.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MediatR.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MonitorAppLib.dll
+C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MonitorAppLib.pdb
+C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.csproj.AssemblyReference.cache
+C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesM.35982430.Up2Date
