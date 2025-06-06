@@ -1,0 +1,9 @@
+2025-06-06 10:05:04.937 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:05:04.970 +05:00 [DBG] Hosting starting
+2025-06-06 10:05:05.051 +05:00 [INF] Process:WpfMain starting "2025-06-06T10:05:05.0464174+05:00"
+2025-06-06 10:05:05.111 +05:00 [INF] Listener starting...
+2025-06-06 10:05:05.119 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:05:05.119 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:05:05.119 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:05:05.119 +05:00 [DBG] Hosting started
+2025-06-06 10:05:17.284 +05:00 [INF] Process:WpfMain starting "2025-06-06T10:05:17.2839622+05:00"

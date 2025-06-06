@@ -11,3 +11,16 @@ C:\Users\Gosha and Anya\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\Monito
 C:\Users\Gosha and Anya\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\refint\MonitorAppLib.dll
 C:\Users\Gosha and Anya\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.pdb
 C:\Users\Gosha and Anya\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\ref\MonitorAppLib.dll
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\bin\Debug\net8.0\MonitorAppLib.deps.json
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\bin\Debug\net8.0\MonitorAppLib.dll
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\bin\Debug\net8.0\MonitorAppLib.pdb
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.csproj.AssemblyReference.cache
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.AssemblyInfoInputs.cache
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.AssemblyInfo.cs
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.csproj.CoreCompileInputs.cache
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.sourcelink.json
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.dll
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\refint\MonitorAppLib.dll
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\MonitorAppLib.pdb
+C:\Users\mrsmi\ProcessAppMoinitor\MonitorAppLib\obj\Debug\net8.0\ref\MonitorAppLib.dll

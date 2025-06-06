@@ -1,0 +1,124 @@
+2025-06-06 10:50:10.987 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:50:11.021 +05:00 [DBG] Hosting starting
+2025-06-06 10:50:11.093 +05:00 [INF] Listener starting...
+2025-06-06 10:50:11.097 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:50:11.101 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:50:11.101 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:50:11.101 +05:00 [DBG] Hosting started
+2025-06-06 10:50:16.711 +05:00 [WRN] Invalid JSON received
+System.Text.Json.JsonException: The JSON value could not be converted to MonitorAppLib.SetMonitorDelay. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Monitor.WorkerHttpListener.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\mrsmi\ProcessAppMoinitor\Monitor\WorkerHttpListener.cs:line 76
+2025-06-06 10:50:47.511 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:50:47.553 +05:00 [DBG] Hosting starting
+2025-06-06 10:50:47.798 +05:00 [INF] Listener starting...
+2025-06-06 10:50:47.817 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:50:47.825 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:50:47.826 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:50:47.826 +05:00 [DBG] Hosting started
+2025-06-06 10:50:52.070 +05:00 [WRN] Invalid JSON received
+System.Text.Json.JsonException: The JSON value could not be converted to MonitorAppLib.SetMonitorDelay. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Monitor.WorkerHttpListener.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\mrsmi\ProcessAppMoinitor\Monitor\WorkerHttpListener.cs:line 76
+2025-06-06 10:51:12.764 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:51:12.849 +05:00 [DBG] Hosting starting
+2025-06-06 10:51:13.190 +05:00 [INF] Listener starting...
+2025-06-06 10:51:13.201 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:51:13.209 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:51:13.209 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:51:13.210 +05:00 [DBG] Hosting started
+2025-06-06 10:51:17.605 +05:00 [WRN] Invalid JSON received
+System.Text.Json.JsonException: The JSON value could not be converted to MonitorAppLib.SetMonitorDelay. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Monitor.WorkerHttpListener.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\mrsmi\ProcessAppMoinitor\Monitor\WorkerHttpListener.cs:line 76
+2025-06-06 10:52:07.305 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:52:07.377 +05:00 [DBG] Hosting starting
+2025-06-06 10:52:07.477 +05:00 [INF] Listener starting...
+2025-06-06 10:52:09.145 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:52:09.150 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:52:09.151 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:52:09.151 +05:00 [DBG] Hosting started
+2025-06-06 10:53:38.652 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:53:38.701 +05:00 [DBG] Hosting starting
+2025-06-06 10:53:38.788 +05:00 [INF] Listener starting...
+2025-06-06 10:53:41.148 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:53:41.153 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:53:41.154 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:53:41.155 +05:00 [DBG] Hosting started
+2025-06-06 10:54:32.847 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:54:32.914 +05:00 [DBG] Hosting starting
+2025-06-06 10:54:33.120 +05:00 [INF] Listener starting...
+2025-06-06 10:54:37.212 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:54:37.218 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:54:37.219 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:54:37.219 +05:00 [DBG] Hosting started
+2025-06-06 10:55:21.417 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:55:21.526 +05:00 [DBG] Hosting starting
+2025-06-06 10:55:21.833 +05:00 [INF] Listener starting...
+2025-06-06 10:55:21.841 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:55:21.848 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:55:21.849 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:55:21.849 +05:00 [DBG] Hosting started
+2025-06-06 10:55:59.293 +05:00 [INF] Received delay notification: Delay is 10000
+2025-06-06 10:56:00.328 +05:00 [INF] Set new Delay is 10000
+2025-06-06 10:56:05.561 +05:00 [INF] Get Delay is 10000
+2025-06-06 10:56:46.698 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:56:46.727 +05:00 [DBG] Hosting starting
+2025-06-06 10:56:46.812 +05:00 [INF] Listener starting...
+2025-06-06 10:56:46.816 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:56:46.821 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:56:46.821 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:56:46.822 +05:00 [DBG] Hosting started
+2025-06-06 10:56:58.059 +05:00 [INF] Received delay notification: Delay is 20000
+2025-06-06 10:56:58.062 +05:00 [INF] Set new Delay is 20000
+2025-06-06 10:58:04.494 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:58:04.536 +05:00 [DBG] Hosting starting
+2025-06-06 10:58:04.619 +05:00 [INF] Listener starting...
+2025-06-06 10:58:04.625 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:58:04.629 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:58:04.629 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:58:04.629 +05:00 [DBG] Hosting started
+2025-06-06 10:58:11.424 +05:00 [INF] Received delay notification: Delay is 23000
+2025-06-06 10:58:11.427 +05:00 [INF] Set new Delay is 23000
+2025-06-06 10:58:14.541 +05:00 [INF] Get Delay is 23000
+2025-06-06 10:58:24.044 +05:00 [INF] Monitor App is Started!
+2025-06-06 10:58:24.119 +05:00 [DBG] Hosting starting
+2025-06-06 10:58:27.522 +05:00 [INF] Listener starting...
+2025-06-06 10:58:27.527 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 10:58:27.533 +05:00 [INF] Hosting environment: Production
+2025-06-06 10:58:27.533 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 10:58:27.533 +05:00 [DBG] Hosting started
+2025-06-06 10:58:41.650 +05:00 [INF] Received delay notification: Delay is 10000
+2025-06-06 10:58:41.653 +05:00 [INF] Set new Delay is 10000
+2025-06-06 10:58:45.144 +05:00 [INF] Get Delay is 10000
+2025-06-06 11:03:20.415 +05:00 [INF] Monitor App is Started!
+2025-06-06 11:03:20.462 +05:00 [DBG] Hosting starting
+2025-06-06 11:03:20.552 +05:00 [INF] Listener starting...
+2025-06-06 11:03:20.555 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 11:03:20.559 +05:00 [INF] Hosting environment: Production
+2025-06-06 11:03:20.559 +05:00 [INF] Content root path: C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows
+2025-06-06 11:03:20.559 +05:00 [DBG] Hosting started
+2025-06-06 11:03:24.475 +05:00 [INF] Received delay notification: Delay is 100000
+2025-06-06 11:03:24.479 +05:00 [INF] Set new Delay is 100000
+2025-06-06 11:03:24.583 +05:00 [INF] Get Delay is 100000

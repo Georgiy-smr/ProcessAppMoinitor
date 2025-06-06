@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Monitor.csproj": {}
+    "C:\\Users\\mrsmi\\ProcessAppMoinitor\\Monitor\\Monitor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj": {
+    "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj",
+        "projectUniqueName": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj",
         "projectName": "MonitorAppLib",
-        "projectPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj",
-        "packagesPath": "C:\\Users\\Gosha and Anya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\obj\\",
+        "projectPath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj",
+        "packagesPath": "C:\\Users\\mrsmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorAppLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gosha and Anya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mrsmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +48,18 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [
@@ -71,25 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Monitor.csproj": {
+    "C:\\Users\\mrsmi\\ProcessAppMoinitor\\Monitor\\Monitor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Monitor.csproj",
+        "projectUniqueName": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\Monitor\\Monitor.csproj",
         "projectName": "Monitor",
-        "projectPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\Monitor.csproj",
-        "packagesPath": "C:\\Users\\Gosha and Anya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\Monitor\\obj\\",
+        "projectPath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\Monitor\\Monitor.csproj",
+        "packagesPath": "C:\\Users\\mrsmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\Monitor\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gosha and Anya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mrsmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +106,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj": {
-                "projectPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj"
+              "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj": {
+                "projectPath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj"
               }
             }
           }
@@ -118,8 +121,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -169,7 +171,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

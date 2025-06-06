@@ -34,3 +34,38 @@ C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Monit
 C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MonitorAppLib.pdb
 C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.csproj.AssemblyReference.cache
 C:\Users\Gosha and Anya\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesM.35982430.Up2Date
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\ProccesMonitor.exe
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\ProccesMonitor.deps.json
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\ProccesMonitor.runtimeconfig.json
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\ProccesMonitor.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\ProccesMonitor.pdb
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MediatR.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MonitorAppLib.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\MonitorAppLib.pdb
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.csproj.AssemblyReference.cache
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.AssemblyInfoInputs.cache
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.AssemblyInfo.cs
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.csproj.CoreCompileInputs.cache
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.sourcelink.json
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesM.35982430.Up2Date
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\refint\ProccesMonitor.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.pdb
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ProccesMonitor.genruntimeconfig.cache
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\obj\Debug\net8.0\ref\ProccesMonitor.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mrsmi\ProcessAppMoinitor\ProccesMonitor\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

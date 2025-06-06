@@ -1,12 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "d3hU0fpWH9c=",
+  "dgSpecHash": "JlAxA4xIaACaDZ40PWuQmEkx+XyucQYwN2zc0jhJYFpyduWB/bLUyh+6bjPUR9ZOVdHBUUlFnjtPgXsGPaO5IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj",
+  "projectFilePath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorAppLib\\MonitorAppLib.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gosha and Anya\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
-    "C:\\Users\\Gosha and Anya\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Gosha and Anya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\mrsmi\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.5\\microsoft.extensions.configuration.binder.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.diagnostics\\9.0.5\\microsoft.extensions.diagnostics.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.5\\microsoft.extensions.diagnostics.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.http\\9.0.5\\microsoft.extensions.http.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.logging\\9.0.5\\microsoft.extensions.logging.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.5\\microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.options\\9.0.5\\microsoft.extensions.options.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.5\\microsoft.extensions.options.configurationextensions.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
+    "C:\\Users\\mrsmi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.5\\system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512"
   ],
   "logs": []
 }

@@ -13,25 +13,24 @@ namespace Monitor
     {
         private readonly ILogger<Worker> _logger;
         private readonly AppStartSettings _settings;
-        private readonly IServiceProvider _provider;
+        private readonly IDelay _delaySevice;
         public Worker(
             ILogger<Worker> logger,
-            IOptions<AppStartSettings> options, 
-            IServiceProvider provider)
+            IOptions<AppStartSettings> options,
+            IDelay delay)
         {
             _settings = options.Value;
             _logger = logger;
-            _provider = provider;
+            _delaySevice = delay;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                await using var scope = _provider.CreateAsyncScope();
-                var delayService = scope.ServiceProvider.GetRequiredService<IDelay>();
-                if(delayService.IsCanSleep)
-                    await Task.Delay(delayService.GetDelay(), stoppingToken).ConfigureAwait(false);
+         
+                if(_delaySevice.IsCanSleep)
+                    await Task.Delay(_delaySevice.GetDelay(), stoppingToken).ConfigureAwait(false);
 
                 string processName = _settings.NameApp;
                 string processPath = _settings.AppPath;

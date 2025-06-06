@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj": {}
+    "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj": {
+    "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj",
+        "projectUniqueName": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj",
         "projectName": "MonitorApp",
-        "projectPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj",
-        "packagesPath": "C:\\Users\\Gosha and Anya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gosha and Anya\\ProcessAppMoinitor\\MonitorApp\\obj\\",
+        "projectPath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorApp\\MonitorApp.csproj",
+        "packagesPath": "C:\\Users\\mrsmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrsmi\\ProcessAppMoinitor\\MonitorApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gosha and Anya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mrsmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -91,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

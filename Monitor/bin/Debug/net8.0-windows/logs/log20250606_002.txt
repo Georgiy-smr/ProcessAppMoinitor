@@ -1,0 +1,83 @@
+2025-06-06 10:49:30.750 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-06 10:49:31.154 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.4' with options: MaxPoolSize=1024 
+2025-06-06 10:49:31.165 +05:00 [DBG] Creating DbConnection.
+2025-06-06 10:49:31.175 +05:00 [DBG] Created DbConnection. (8ms).
+2025-06-06 10:49:31.181 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-06 10:49:31.187 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-06 10:49:31.189 +05:00 [DBG] Disposing connection to database 'main' on server 'appDataBase.db'.
+2025-06-06 10:49:31.193 +05:00 [DBG] Disposed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-06 10:49:31.200 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-06 10:49:31.201 +05:00 [DBG] Creating DbConnection.
+2025-06-06 10:49:31.201 +05:00 [DBG] Created DbConnection. (0ms).
+2025-06-06 10:49:31.206 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2025-06-06 10:49:31.207 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (10ms).
+2025-06-06 10:49:31.207 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-06 10:49:31.209 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-06 10:49:31.214 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-06 10:49:31.232 +05:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2025-06-06 10:49:31.234 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-06 10:49:31.235 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (1ms).
+2025-06-06 10:49:31.238 +05:00 [INF] БД создана за 0,4368751
+2025-06-06 10:49:31.272 +05:00 [DBG] Compiling query expression: 
+'DbSet<Limits>()
+    .Any()'
+2025-06-06 10:49:31.440 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted))) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Limits AS l
+                WHERE Not(l.SoftDeleted)), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ContextEf.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-06 10:49:31.459 +05:00 [DBG] Opening connection to database 'main' on server 'appDataBase.db'.
+2025-06-06 10:49:31.460 +05:00 [DBG] Opened connection to database 'main' on server 'C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-06 10:49:31.460 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-06 10:49:31.460 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-06 10:49:31.460 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-06 10:49:31.461 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-06 10:49:31.463 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Limits" AS "l"
+    WHERE NOT ("l"."SoftDeleted"))
+2025-06-06 10:49:31.466 +05:00 [DBG] Closing data reader to 'main' on server 'C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-06 10:49:31.468 +05:00 [DBG] A data reader for 'main' on server 'C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db' is being disposed after spending 4ms reading results.
+2025-06-06 10:49:31.469 +05:00 [DBG] Closing connection to database 'main' on server 'C:\Users\mrsmi\ProcessAppMoinitor\Monitor\bin\Debug\net8.0-windows\appDataBase.db'.
+2025-06-06 10:49:31.469 +05:00 [DBG] Closed connection to database 'main' on server 'appDataBase.db' (0ms).
+2025-06-06 10:49:32.310 +05:00 [INF] Запуск приложения!
